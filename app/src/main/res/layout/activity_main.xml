@@ -22,7 +22,8 @@
         android:hint="@string/cost_of_service"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <RadioGroup
         android:id="@+id/tipOptions"
@@ -59,7 +60,8 @@
         android:text="@string/round_up_tip"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tipOptions" />
+        app:layout_constraintTop_toBottomOf="@id/tipOptions"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <Button
         android:id="@+id/btCalculate"
